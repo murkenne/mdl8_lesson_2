@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="listen.html">Watch/Listen</a></li>
+                <li><a href="thank_you.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery">
+        <h2>Entertainment Gallery</h2>
+        <div class="gallery">
+            <!-- Insert images here -->
+            <img src="https://image.tmdb.org/t/p/original/y4VtmfWXaZBgnsaNcrW5hskPLUl.jpg" alt="Entertainment Image 1">
+            <img src="https://becomesingers.com/wp-content/uploads/2020/12/Singer-Dancing.jpg" alt="Entertainment Image 2">
+            <img src="https://images.hdqwalls.com/wallpapers/call-of-duty-modern-warfare-4k-2019-md.jpg" alt="Entertainment Image 3">
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="cta">
+        <h2>Enjoy Our Content</h2>
+        <div class="cta-buttons">
+            <a href="watch.html"><button>Watch Now</button></a>
+            <a href="listen.html"><button>Listen Here</button></a>
+            <a href="play.html"><button>Play Game</button></a>
+        </div>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section id="feedback">
+        <h2>We Value Your Feedback</h2>
+        <!-- Form that links to another page upon submission -->
+        <form action="thank_you.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
+
+
